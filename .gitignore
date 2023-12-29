@@ -4,3 +4,4 @@ weather_tflife_model_check.ipynb
 data/*
 __pycache__/*
 MobileNetv2.keras
+templates/index_temp.html
