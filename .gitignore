@@ -1,0 +1,6 @@
+*.h5
+weather_data_prepare.py
+weather_tflife_model_check.ipynb
+data/*
+__pycache__/*
+MobileNetv2.keras
