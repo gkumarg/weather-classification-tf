@@ -20,7 +20,7 @@ def test_predict():
     files = {'file': image_data}
     response = requests.post(url, files=files)
 
-
+    print(response.content)
     assert response.status_code == 200
     data = response.json()
     assert 'prediction' in data

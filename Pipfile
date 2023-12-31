@@ -11,10 +11,11 @@ waitress = "*"
 requests = "*"
 gunicorn = "*"
 numpy = "*"
-
-[dev-packages]
 matplotlib = "*"
 ipykernel = "*"
+
+[dev-packages]
+
 
 [requires]
 python_version = "3.9"
