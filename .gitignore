@@ -5,3 +5,4 @@ data/*
 __pycache__/*
 MobileNetv2.keras
 templates/index_temp.html
+assets/tflite_runtime-2.14.0-cp39-cp39-manylinux2014_x86_64.whl
