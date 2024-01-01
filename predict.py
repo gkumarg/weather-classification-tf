@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify, render_template
-import tensorflow as tf
+# import tensorflow as tf
 # from tensorflow.keras.preprocessing import image
+import tflite_runtime.interpreter as tflite
 import numpy as np
 import io
 from PIL import Image
@@ -10,7 +11,8 @@ app = Flask(__name__)
 
 
 # Load the tensorflowlite model
-interpreter = tf.lite.Interpreter(model_path="MobileNetv2.tflite")
+# interpreter = tf.lite.Interpreter(model_path="MobileNetv2.tflite")
+interpreter = tflite.Interpreter(model_path="MobileNetv2.tflite")
 interpreter.allocate_tensors()
 input_index = interpreter.get_input_details()[0]["index"]
 output_index = interpreter.get_output_details()[0]["index"]

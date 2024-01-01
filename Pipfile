@@ -4,18 +4,19 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-tensorflow = "==2.14"
 scipy = "*"
 flask = "*"
 waitress = "*"
 requests = "*"
 gunicorn = "*"
 numpy = "*"
-matplotlib = "*"
-ipykernel = "*"
+Pillow = "*"
+tflite-runtime = "*"
 
 [dev-packages]
-
+tensorflow = "==2.14"
+ipykernel = "*"
+matplotlib = "*"
 
 [requires]
 python_version = "3.9"
