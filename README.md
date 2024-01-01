@@ -3,12 +3,11 @@
 This project will help you discern the type of weather seen in the image. Upload the image and the model will classify the image as depicting one of these weather scenarios:
 dew, fog/smog, frost, glaze, hail, lightning, rain, rainbow, rime, sandstorm, snow
 
-Definitions of different weather conditions:
+Definitions of different weather conditions from weather.org [Weather.org](https://forecast.weather.gov/glossary.php?word=fog):
 - Dew -
 Moisture that has condensed on objects near the ground, whose temperatures have fallen below the dewpoint temperature.
 - Fog -
 (abbrev. F) Fog is water droplets suspended in the air at the Earth's surface. Fog is often hazardous when the visibility is reduced to ¼ mile or less.
-https://forecast.weather.gov/glossary.php?word=fog
 
 - Smog -
 Originally smog meant a mixture of smoke and fog. Now, it means air that has restricted visibility due to pollution or pollution formed in the presence of sunlight--photochemical smog.
