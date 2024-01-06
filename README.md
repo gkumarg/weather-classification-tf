@@ -125,9 +125,9 @@ weather-classification_dl/
 ### Installation
 
 1. Clone the Repository:
-   ```bash
-   git clone https://github.com/yourusername/weather-classification_dl.git
-   cd weather-classification_dl
+   ```bash   
+   git clone https://github.com/gkumarg/weather-classification-tf.git
+   cd weather-classification-tf
 
 2. Set Up a Virtual Environment (Optional):
     1. Install Pipenv:
