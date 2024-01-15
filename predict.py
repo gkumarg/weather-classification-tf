@@ -59,7 +59,7 @@ def predict():
         index = np.argmax(predictions[0])
 
         classes = {0: 'dew',
-                    1: 'fogsmog',
+                    1: 'fog/smog',
                     2: 'frost',
                     3: 'glaze',
                     4: 'hail',
